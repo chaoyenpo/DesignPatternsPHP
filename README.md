@@ -4,5 +4,6 @@
 
 ## 感想
 
-- 學習時以最簡單為原則，只要表達出這個 Patten 的核心概念就可以了。
-- 後面再開始結合每個 Patten。
+- 學習時以最簡單為原則，只要表達出這個 Design Patten 的核心概念就可以了。
+- 先學習 Creational 類型的 Design Patten。
+- 後面再開始結合每個 Design Patten。
