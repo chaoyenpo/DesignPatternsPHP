@@ -23,7 +23,7 @@ class SimpleFactoryTest extends TestCase
         $bicycle = (new SimpleFactory)->createBicycle();
         $bicycle->driveTo($destination);
 
-        $this->assertTrue($bicycle->destination === $destination);
+        $this->assertEquals($destination, $bicycle->destination);
     }
 
     public function testCanCreateCar()
@@ -40,6 +40,6 @@ class SimpleFactoryTest extends TestCase
         $car = (new SimpleFactory)->createCar();
         $car->driveTo($destination);
 
-        $this->assertTrue($car->destination === $destination);
+        $this->assertEquals($destination, $car->destination);
     }
 }
