@@ -16,7 +16,7 @@ class SimpleFactoryTest extends TestCase
         $this->assertInstanceOf(Bicycle::class, $bicycle);
     }
 
-    public function testBicyleCanDriveTo()
+    public function testCanDriveToForBicyle()
     {
         $destination = "Taipei";
 
@@ -33,7 +33,7 @@ class SimpleFactoryTest extends TestCase
         $this->assertInstanceOf(Car::class, $car);
     }
 
-    public function testCarCanDriveTo()
+    public function testCanDriveToFroCar()
     {
         $destination = "Taipei";
 
