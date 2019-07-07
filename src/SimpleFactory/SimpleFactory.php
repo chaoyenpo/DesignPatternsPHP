@@ -8,4 +8,9 @@ class SimpleFactory
     {
         return new Bicycle();
     }
+
+    public function createCar(): Car
+    {
+        return new Car();
+    }
 }
